@@ -3,7 +3,7 @@
 #---------------------------------------------------------------------
 resource "aws_db_instance" "database" {
   allocated_storage    = 10
-  db_name              = "tech-challenge-fiap-terraform"
+  db_name              = "techchallenge"
   engine               = "mysql"
   engine_version       = "5.7"
   storage_type         = "gp2"
