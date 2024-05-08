@@ -2,7 +2,7 @@
 # Infraestrutura como código para o database do projeto Tech Challenge
 #---------------------------------------------------------------------
 resource "aws_db_instance" "database" {
-  identifier           = "tech-challenge-fiap"
+  identifier           = "tech-challenge-fiapa"
   allocated_storage    = 10
   db_name              = "techchallenge"
   engine               = "mysql"
